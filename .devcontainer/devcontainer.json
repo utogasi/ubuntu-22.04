@@ -4,8 +4,7 @@
     "cpus": 2
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r .devcontainer/requirements.txt",
-  "postCreateCommand": "",
+  "postCreateCommand": "/bin/bash .devcontainer/postCreateCommand.sh",
   "customizations": {
     "codespaces": {
       "openFiles": []
@@ -16,8 +15,9 @@
         "ms-python.python",
         "fortran-lang.linter-gfortran",
         "GitHub.copilot",
-        "James-Yu.latex-workshop",
-        "Blamsoft.fprettify"
+        "Blamsoft.fprettify",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-vscode-remote.remote-containers"
       ]
     }
   }

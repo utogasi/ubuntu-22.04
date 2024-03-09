@@ -13,7 +13,11 @@
     "vscode": {
       "extensions": [
         "ms-toolsai.jupyter",
-        "ms-python.python"
+        "ms-python.python",
+        "fortran-lang.linter-gfortran",
+        "GitHub.copilot",
+        "James-Yu.latex-workshop",
+        "Blamsoft.fprettify"
       ]
     }
   }

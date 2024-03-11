@@ -4,7 +4,8 @@
     "cpus": 2
   },
   "waitFor": "onCreateCommand",
-  "postCreateCommand": "sudo /bin/bash .devcontainer/postCreateCommand.sh",
+  "onCreateCommand": "sudo /bin/bash .devcontainer/onCreateCommand.sh",
+  "postCreateCommand": "/bin/bash .devcontainer/postCreateCommand.sh",
   "customizations": {
     "codespaces": {
       "openFiles": []

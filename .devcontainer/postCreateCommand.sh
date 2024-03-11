@@ -1,9 +1,14 @@
-# Ubuntu packages
-apt-get update
-apt-get install -y \
-    gfortran \
-    gnuplot-nox
+# some setup
+WORKSPACE=/workspaces/codespaces
 
-# python modules
-python3 -m pip install -r .devcontainer/requirements.txt
-python3 -m gnuplot_kernel install
+cd $WORKSPACE
+if [ ! -d "fortran" ]; then
+    mkdir fortran && cd fortran
+    git clone https://github.com/amanotk/fortran-resume-sample.git sample
+fi
+
+cd $WORKSPACE
+if [ ! -d "python" ]; then
+    mkdir python && cd python
+fi
+

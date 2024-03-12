@@ -6,12 +6,14 @@
 ブラウザとGithubアカウントがあればすぐに使うことができます．
 
 ## 使い方
-https://github.com/amanotk/codespaces にアクセスして
-
 「Code」　→　「Codespaces」タブ　→　「Create codespace on main」
 
+<div align="center">
+<img src="https://github.com/amanotk/codespaces/assets/46679145/2a9e5d35-086d-408f-b678-3cf6a1c8cbf1" width="400px">
+</div>
+
 をクリックするとブラウザ上でVSCodeが立ち上がります．  
-VSCode上のターミナルは通常のLinuxのコマンドラインです．
+VSCode上のターミナルは通常のLinuxのコマンドラインと同じものです．
 
 ## 注意点
 これは

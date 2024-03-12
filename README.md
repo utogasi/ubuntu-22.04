@@ -5,15 +5,22 @@
 のために用意されたLinux環境です．  
 ブラウザとGithubアカウントがあればすぐに使うことができます．
 
-## 使い方
-「Code」　→　「Codespaces」タブ　→　「Create codespace on main」
+## 起動方法
+初めて起動するときは  
+「Code」　→　「Codespaces」タブ　→　「Create codespace on main」  
+をクリックするとブラウザ上でVSCodeが立ち上がります．  
 
 <div align="center">
 <img src="https://github.com/amanotk/codespaces/assets/46679145/2a9e5d35-086d-408f-b678-3cf6a1c8cbf1" width="400px">
 </div>
 
-をクリックするとブラウザ上でVSCodeが立ち上がります．  
-VSCode上のターミナルは通常のLinuxのコマンドラインと同じものです．
+初回は環境構築に少し時間がかかりますが，2回目以降は既存の環境を使うことができます．  
+作成された環境には自動で名前（以下の例では"crispy bassoon"）が付与されますので，
+その名前をクリックすれば起動することができます．
+
+<div align="center">
+<img src="https://github.com/amanotk/codespaces/assets/46679145/5a8ba104-a963-41b4-aa04-9a5fb48c97c5" width="400px">
+</div>
 
 ## 注意点
 これは

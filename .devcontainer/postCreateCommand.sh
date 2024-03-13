@@ -4,6 +4,10 @@ WORKSPACE=/workspaces/$RepositoryName
 # directory permission
 find . -type d -print | xargs chmod 755
 
+# python modules
+python3 -m pip install -r .devcontainer/requirements.txt
+python3 -m gnuplot_kernel install --user
+
 cd $WORKSPACE
 if [ ! -d "fortran" ]; then
     mkdir fortran && cd fortran

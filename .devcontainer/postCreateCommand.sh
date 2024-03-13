@@ -1,6 +1,9 @@
 # some setup
 WORKSPACE=/workspaces/$RepositoryName
 
+# directory permission
+find . -type d -print | xargs chmod 755
+
 cd $WORKSPACE
 if [ ! -d "fortran" ]; then
     mkdir fortran && cd fortran

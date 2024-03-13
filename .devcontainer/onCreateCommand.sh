@@ -11,5 +11,4 @@ python3 -m gnuplot_kernel install
 
 # acl
 chown -R codespace:codespace .
-chmod 755 .
 setfacl -bnR .

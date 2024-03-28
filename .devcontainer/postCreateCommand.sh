@@ -19,5 +19,6 @@ cd $WORKSPACE
 if [ ! -d "python" ]; then
     mkdir python && cd python
     git clone https://github.com/amanotk/python-resume-sample.git sample
+    git clone https://github.com/amanotk/python-resume-answer.git answer
 fi
 

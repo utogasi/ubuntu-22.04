@@ -1,0 +1,34 @@
+氏名　　　　　　　：`平戸佑汰
+アカウント名　　　： s242626
+ECCSメールアドレス：hinata398@g.ecc.u-tokyo.ac.jp
+
+1.Linus Torvalds
+
+2.ls /etc
+
+3.ls -la 
+
+4.cp /etc/hosts /etc/hosts.copy
+
+5.mv /etc/hosts.copy /etc/hosts.move 
+
+6.rm /etc/hosts.move
+
+7./home/codespace
+
+8.rm -r fuga
+  mkdir hoge
+
+9.~/passwd
+
+10./usr/bin
+
+11.ホームディレクトリにある.profileというフォルダを開いています
+
+12.more ~/.bashrc
+
+13.find /usr/ -name gfortran
+
+14.which python
+
+15.インターンでやったことを結構忘れてたので頑張りたいです。
